@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <div class="main-contaier">
+        <form action="/form" method="post">
+        <div>
+            <label for="firstname">
+                First Name
+                <input type="text" name="firstname" id="firstname">
+            </label>
+            <label for="lastname">
+                Last Name
+                <input type="text" name="lastname" id="lastname">
+            </label>
+
+
+        </div>
+        <label for="fullname">
+            Full Name
+            <input type="text" name="fullname" id="fullname">
+        </label>
+
+        <div>
+            <label for="educationstatus">
+                Education Status
+                <select name="lasteducation" id="">
+                    <option value=""></option>
+                    <option value="">High School</option>
+                    <option value="">Bachelor</option>
+                    <option value="">Master</option>
+                    <option value="">PHD</option>
+                </select>
+            </label>
+
+            <label for="">
+                Single
+                <input type="checkbox">
+                Married
+                <input type="checkbox">
+            </label>
+        </div>
+
+        <textarea name="message" id="" cols="140" rows="12"></textarea>
+
+
+    </form>
+
+    </div>
+
+</body>
+</html>
