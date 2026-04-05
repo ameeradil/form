@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-size: 20px;
+}
+
+.main-container{
+    max-width: auto;
+    margin: 100px 400px;
+}
+
+
+.form-container{
+    display: flex;
+    flex-direction: column;
+    width: 575px;
+}
+
+button{
+    margin-top: 20px;
+
+}
