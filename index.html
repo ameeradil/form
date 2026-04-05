@@ -30,19 +30,19 @@
                 Education Status
                 <select name="lasteducation" id="educationstatus" required>
                     <option value=""></option>
-                    <option value="">High School</option>
-                    <option value="">Bachelor</option>
-                    <option value="">Master</option>
-                    <option value="">PHD</option>
+                    <option value="highschool">High School</option>
+                    <option value="bachelor">Bachelor</option>
+                    <option value="master">Master</option>
+                    <option value="phd">PHD</option>
                 </select>
             </label>
 
-            <label for="materialstatus" aria-required="">
-                Single
-                <input type="checkbox">
-                Married
-                <input type="checkbox">
-            </label>
+<label>
+  <input type="radio" name="materialstatus" value="Single"> Single
+</label>
+<label>
+  <input type="radio" name="materialstatus" value="Married"> Married
+</label>
         </div>
 
         <label for="message">
@@ -51,7 +51,7 @@
         </label>
         <textarea name="message" id="" rows="13"></textarea>
 
-        <button value="submit">Submit</button>
+        <button type="submit">Submit</button>
 
         </div>
     </form>
