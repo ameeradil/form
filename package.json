@@ -1,0 +1,24 @@
+{
+  "name": "form",
+  "version": "1.0.0",
+  "description": "form project to know how forms being submitted",
+  "homepage": "https://github.com/ameeradil/form#readme",
+  "bugs": {
+    "url": "https://github.com/ameeradil/form/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ameeradil/form.git"
+  },
+  "license": "ISC",
+  "author": "Ameer Eltaib",
+  "type": "commonjs",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^5.2.1",
+    "mongoose": "^9.4.1"
+  }
+}
